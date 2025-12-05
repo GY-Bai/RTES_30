@@ -2,8 +2,7 @@
 #include "Arduino.h"
 #include <Wire.h>
 #include <LSM6DSLSensor.h>
-#include <BLEDevice.h>
-#include <STM32duinoBLE.h>
+#include <STM32duinoBLE.h>  // STM32 专用 BLE 库（移除了错误的 ESP32 BLEDevice.h）
 
 
 // I2C 实例（使用板载 I2C）
